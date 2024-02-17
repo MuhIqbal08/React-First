@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-app {
+  background-color: crimson;
+  color: white;
+  font-size: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 15px;
+}
+
+.navbar-app .brand {
+  margin-right: auto;
+}
+
+.navbar-app ul {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-app ul li {
+  list-style-type: none;
+  cursor:  pointer;
+}

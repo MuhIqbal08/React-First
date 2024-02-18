@@ -5,7 +5,7 @@ import '../App.css'
 
 const Navbar = (props) => {
     const navigate = useNavigate()
-    console.log(props.contactNavbar)
+    // console.log(props.contactNavbar)
   return (
     <header>
       <nav className="navbar-app">
